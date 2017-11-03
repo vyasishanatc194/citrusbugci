@@ -9,8 +9,6 @@ class About extends CI_Controller
 	function index()
 	{
 		
-		echo "Jui Global branch"; exit;
-		
 		$current_url=current_url();	#Get Current url
 		
 		// Load the seo model which interact with database
