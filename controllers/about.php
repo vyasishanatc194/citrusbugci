@@ -8,6 +8,7 @@ class About extends CI_Controller
 	}
 	function index()
 	{
+		echo "Citrusbug Staging About Page"; exit;
 		
 		$current_url=current_url();	#Get Current url
 		
