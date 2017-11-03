@@ -8,7 +8,7 @@ class About extends CI_Controller
 	}
 	function index()
 	{
-		
+		echo "Yeay! This is Ishan Global"; exit;	
 		$current_url=current_url();	#Get Current url
 		
 		// Load the seo model which interact with database
