@@ -8,7 +8,10 @@ class About extends CI_Controller
 	}
 	function index()
 	{
-		echo "Citrusbug Staging About Page edited by harsh"; exit;
+		echo "Citrusbug Staging About Page edited by harsh"; 
+		echo "Live to GITHUB REPO CHAnge";
+		
+		exit;
 		
 		$current_url=current_url();	#Get Current url
 		
